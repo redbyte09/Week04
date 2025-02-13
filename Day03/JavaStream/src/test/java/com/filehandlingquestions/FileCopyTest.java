@@ -53,10 +53,4 @@ class FileCopyTest {
                 "Error message should indicate missing source file");
     }
 
-    @AfterEach
-    void tearDown() {
-        // Delete test files after test execution
-        new File(SOURCE_FILE).delete();
-        new File(DESTINATION_FILE).delete();
-    }
 }
