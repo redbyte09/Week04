@@ -1,4 +1,4 @@
-package com;
+package com.reflectionbasicquestion;
 
 import java.lang.reflect.*;
 import java.util.Scanner;
@@ -42,4 +42,5 @@ public class SimpleReflection {
         }
     }
 }
+
 
